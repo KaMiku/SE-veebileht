@@ -1,0 +1,250 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top:0; left: 0; right: 0;
+    background: rgb(62, 68, 51);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo {
+    font-size: 3rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .navbar a:hover {
+    color:  rgb(32, 34, 27);
+}
+
+.veelaud .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.veelaud {
+    min-height: 300px;
+    background: url(./IMG_6677.jpeg) no-repeat 0 -400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: whitesmoke;
+    max-width: 100%;
+    padding: 2rem 9%; /*!*/
+    
+}
+
+.veelaud h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tutvustus {
+    width: 90%;
+    margin: 80px;
+}
+
+.tutvustus .title {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    font-size: 4vmin;
+    margin-bottom: 40px;
+}
+
+.tutvustus p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    font-size: 3vmin;
+    margin-right: 1cm;
+    text-align: left;
+}
+
+.row { 
+    display: flex;
+    align-items: center;
+}
+
+.tutvustus img {
+    width: 15cm;
+    height: 9.4cm;
+    margin-right: 50cm;
+    margin-left: 5cm;
+    float: right; /*!*/    
+    margin: 0 0 0 15px; /*!fixis positsiooni*/
+}
+
+.varustus {
+    background-image: url(./wake3.jpg);
+    height: 16.5cm;
+    margin-top: 100px;
+}
+
+.varustus .title {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    font-size: 4vmin;
+    margin-left: 2cm;
+    position: absolute; /*et margintop tootaks*/
+    margin-top: 30px;
+}
+
+.varustus p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    font-size: 3vmin;
+    margin-right: 1cm; 
+    margin-top: 50px;   
+}
+
+.varustus br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0.2cm; /* change this to whatever height you want it */
+}
+
+.võimalused {
+    width: 90%;
+    margin: 80px;
+}
+
+.võimalused .title {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    font-size: 4vmin;
+    margin-bottom: 40px;
+}
+
+.võimalused .row .col h2 {
+    font-size: 4vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 64, 47);
+    margin-top: 20px;
+}
+
+.võimalused .row .col p {
+    font-size: 3vmin;
+    color: rgb(47, 64, 47);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.võimalused .row .col a {
+    font-size: 3vmin;
+    color: rgb(112, 134, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    margin-bottom: 20px;
+}
+
+.võimalused .row .col a:hover {
+    color: rgb(59, 80, 59);
+}
+
+
+
+
+
+    /*align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events.row { 
+    margin-top: 50px;
+}
+
+.row .col img { 
+    width: 500px;
+    height: 300px;
+}
+*/
+
+
+
+
+/*
+.row { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row .col img { 
+    width: 25cm;
+    height: 300px;
+    margin-top: 2cm;
+}
+ */
+
+
+
+
+/*
+.row .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row .col img {
+    height: 5cm;
+    width: 5cm;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+*/
+
